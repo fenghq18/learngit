@@ -1,0 +1,11 @@
+git checkout - b bugFix    	 // git branch bugFix -> git checkout bugFix
+git commit
+git checkout main
+git commit
+git checkout bugFix
+git rebase main		  	 // git merge main
+
+
+HEAD
+git branch -f main C6		//branch -f 移動其他, main*代表main和HEAD重疊
+git checkout HEAD ~1	   	//checkout 是移動head 
